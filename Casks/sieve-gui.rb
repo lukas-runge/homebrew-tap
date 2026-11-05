@@ -1,9 +1,9 @@
 cask "sieve-gui" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "23a0f8fdb6d3cfb119a6e3773b953ce176f5635cc4b1b55070b305be49eb468b",
-         intel: "7ac2eb83869040d063c42fc55e5c7bb0fe7b25cd910afc096164be505abc1790"
+  version "0.2.0"
+  sha256 arm:   "83d7dc2838eeae54b157617f3157f568a2d8f12420fae97a9942405a07a66c40",
+         intel: "9bd668c4d7a02cf55a753afc4db013c5cfc1b938421381ed14692c45c1a17219"
 
   url "https://github.com/lukas-runge/sieve-gui/releases/download/v#{version}/sieve-gui_#{version}_#{arch}.dmg"
   name "sieve-gui"
